@@ -1,0 +1,17 @@
+{
+  "_comment": "Each entry overrides one rule for one client, e.g. after a client requests a limit review. 'expires' is optional (ISO date) — expired exceptions are ignored.",
+  "exceptions": [
+    {
+      "client_id": "CL100004",
+      "rule": "over_limit",
+      "reason": "Client approved for a temporary 20% exposure increase pending Q3 account review.",
+      "expires": "2026-12-31"
+    },
+    {
+      "client_id": "CL100017",
+      "rule": "stale_review",
+      "reason": "Relationship manager confirmed review is scheduled next week; do not escalate.",
+      "expires": "2026-10-15"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# generated data — regenerate with generate_sample_data.py
+data/clients.csv
+output/*.xlsx
+output/*.csv
