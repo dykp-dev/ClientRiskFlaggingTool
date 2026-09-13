@@ -1,4 +1,5 @@
 # Client Risk Flagging Tool
+This tool is based of a system which i created during my time at Marex as a Technology intern
 
 A small Python (pandas + NumPy) rules engine that reads a client dataset from
 CSV/Excel, evaluates each account against a set of risk rules, and writes
